@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="w.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Now</h1>
+        <div id="location"></div>
+        <div id="weatherInfo">
+            <p id="temperature">Loading...</p>
+            <p id="conditions">Loading...</p>
+            <p id="mood">Loading...</p>
+        </div>
+        <div class="footer">
+            <button id="getWeatherBtn">Get Weather</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
